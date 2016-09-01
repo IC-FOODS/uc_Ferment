@@ -1,0 +1,624 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/aaronbaer/ontologies/2016/8/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/aaronbaer/ontologies/2016/8/untitled-ontology-5">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#malt_liquor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#saccharomyces_cerevisiae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fermentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water_vapor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#psi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#envionmental_components"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavored_liquers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metabolites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sauerkraut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soy_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#balao_balao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sour_beer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shoyu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yakult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#miso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aspergillus_sojae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#torr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sourdough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#methane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#toxins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#magou"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#honey_wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#atmospheric_electromagnetic_radiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#symbiot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parasite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nham"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yogurt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nitrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contaminates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lactic_acid_organisms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lactobacillus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#whiskey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#atmospheric_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pediococcus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ethanol_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#predator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spirits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brandy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pediococcus_halophilus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#atmospheric_pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#atmospheric_composition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soy_organisms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#units"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ethanol_taxa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#saccharomyces_rouxii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kimchi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#atmospheres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cognac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brettanomyces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#candida_etchellsii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soy_products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tequila"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lactic_acid_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carbon_dioxide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lactic_food_products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ethanol_fermentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ethanol_organisms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#current"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#helium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oxygen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mmHg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cofactors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soy_fermentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lactococcus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pickled_products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gari"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#substrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aspergillus_oryzae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interorganism_interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#altruistic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lactic_acid_taxa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lactic_acid_fermentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#competitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#candida_versatilis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soy_taxa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ethanol_products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#natto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vodka"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#altruistic"/>
+        <Class IRI="#interorganism_interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aspergillus_oryzae"/>
+        <Class IRI="#soy_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aspergillus_sojae"/>
+        <Class IRI="#soy_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#atmospheres"/>
+        <Class IRI="#units"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#atmospheric_composition"/>
+        <Class IRI="#envionmental_components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#atmospheric_electromagnetic_radiation"/>
+        <Class IRI="#envionmental_components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#atmospheric_pressure"/>
+        <Class IRI="#envionmental_components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#atmospheric_temperature"/>
+        <Class IRI="#envionmental_components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#balao_balao"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beer"/>
+        <Class IRI="#ethanol_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brandy"/>
+        <Class IRI="#spirits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brettanomyces"/>
+        <Class IRI="#lactic_acid_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#candida_etchellsii"/>
+        <Class IRI="#soy_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#candida_versatilis"/>
+        <Class IRI="#soy_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carbon_dioxide"/>
+        <Class IRI="#atmospheric_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cofactors"/>
+        <Class IRI="#substrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cognac"/>
+        <Class IRI="#spirits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#competitor"/>
+        <Class IRI="#interorganism_interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contaminates"/>
+        <Class IRI="#substrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#current"/>
+        <Class IRI="#atmospheric_electromagnetic_radiation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ethanol_environment"/>
+        <Class IRI="#ethanol_organisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ethanol_fermentation"/>
+        <Class IRI="#fermentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ethanol_organisms"/>
+        <Class IRI="#ethanol_fermentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ethanol_products"/>
+        <Class IRI="#ethanol_fermentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ethanol_taxa"/>
+        <Class IRI="#ethanol_organisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavored_liquers"/>
+        <Class IRI="#spirits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gari"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gin"/>
+        <Class IRI="#spirits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heat"/>
+        <Class IRI="#atmospheric_electromagnetic_radiation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#helium"/>
+        <Class IRI="#atmospheric_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#honey_wine"/>
+        <Class IRI="#wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrogen"/>
+        <Class IRI="#atmospheric_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ions"/>
+        <Class IRI="#substrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kimchi"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lactic_acid_environment"/>
+        <Class IRI="#lactic_acid_organisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lactic_acid_fermentation"/>
+        <Class IRI="#fermentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lactic_acid_organisms"/>
+        <Class IRI="#lactic_acid_fermentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lactic_acid_taxa"/>
+        <Class IRI="#lactic_acid_organisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lactic_food_products"/>
+        <Class IRI="#lactic_acid_fermentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lactobacillus"/>
+        <Class IRI="#lactic_acid_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lactococcus"/>
+        <Class IRI="#lactic_acid_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light"/>
+        <Class IRI="#atmospheric_electromagnetic_radiation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#magou"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#malt_liquor"/>
+        <Class IRI="#beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#metabolites"/>
+        <Class IRI="#substrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#methane"/>
+        <Class IRI="#atmospheric_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#miso"/>
+        <Class IRI="#soy_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mmHg"/>
+        <Class IRI="#units"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#natto"/>
+        <Class IRI="#soy_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nham"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nitrogen"/>
+        <Class IRI="#atmospheric_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oxygen"/>
+        <Class IRI="#atmospheric_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parasite"/>
+        <Class IRI="#interorganism_interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pediococcus"/>
+        <Class IRI="#lactic_acid_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pediococcus_halophilus"/>
+        <Class IRI="#soy_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pickled_products"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#predator"/>
+        <Class IRI="#interorganism_interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prey"/>
+        <Class IRI="#interorganism_interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#psi"/>
+        <Class IRI="#units"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rum"/>
+        <Class IRI="#spirits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#saccharomyces_cerevisiae"/>
+        <Class IRI="#ethanol_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#saccharomyces_rouxii"/>
+        <Class IRI="#soy_taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sauerkraut"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shoyu"/>
+        <Class IRI="#soy_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sour_beer"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sourdough"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soy_environment"/>
+        <Class IRI="#soy_organisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soy_fermentation"/>
+        <Class IRI="#fermentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soy_organisms"/>
+        <Class IRI="#soy_fermentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soy_products"/>
+        <Class IRI="#soy_fermentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soy_taxa"/>
+        <Class IRI="#soy_organisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spirits"/>
+        <Class IRI="#ethanol_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#substrate"/>
+        <Class IRI="#ethanol_organisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#substrate"/>
+        <Class IRI="#lactic_acid_organisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#substrate"/>
+        <Class IRI="#soy_organisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#symbiot"/>
+        <Class IRI="#interorganism_interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tequila"/>
+        <Class IRI="#spirits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#torr"/>
+        <Class IRI="#units"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#toxins"/>
+        <Class IRI="#substrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#units"/>
+        <Class IRI="#atmospheric_pressure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vodka"/>
+        <Class IRI="#spirits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_vapor"/>
+        <Class IRI="#atmospheric_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#whiskey"/>
+        <Class IRI="#spirits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wine"/>
+        <Class IRI="#ethanol_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yakult"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yogurt"/>
+        <Class IRI="#lactic_food_products"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
